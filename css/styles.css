@@ -1,0 +1,23 @@
+.row-centered {
+  text-align: center;
+  background-color: salmon;
+}
+/*form {*/
+  /*background-color: grey;*/
+}
+/*h4 {*/
+  /*text-align: center;*/
+}
+.option {
+  background-color: grey;
+
+}
+#vacation1 {
+  display: none;
+}
+#vacation2 {
+  display: none;
+}
+#vacation3 {
+  display: none;
+}

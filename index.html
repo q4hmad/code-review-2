@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Code Review 2</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row row-centered well">
+      <h3>Where should you go for your next Vacation?</h3>
+    </div>
+    <div class="row">
+      <h4>Answering these questions migh help you to find out where you should head to next:<h4>
+
+          <form id="questions">
+
+            <div class="col-md-6">
+            <p>What kind of weather perks you up and makes you happy?</p>
+            <select class="form-control" id="weather">
+             <option value="hot">Hot</option>
+             <option value="cold">Cold</option>
+             <option value="cool">Neither extreme</option>
+            </select>
+          </div>
+
+          <div class="col-md-12">
+            <p>Your idea of a day well-spent is:</p>
+            <select class="form-control" id="activity">
+              <option value="surfing">Surfing</option>
+              <option value="skiing">Skiing</option>
+              <option value="lounging">Lounging</option>
+
+          </select>
+        </div>
+
+        <div class="col-md-12">
+          <p>How far is too far when you think of traveling?</p>
+          <select class="form control" id="distance">
+            <option value="far">The further the better</option>
+            <option value="near">Anywhere without a plane</option>
+            <option value="home">I get car sick, plane sick and bike sick</option>
+
+          </select>
+        </div>
+
+        <div class="col-md-12">
+          <p>What interests you when traveling?</p>
+          <select class="form control" id="interests">
+            <option value="water">Water sports, sand</option>
+            <option value="snow">cold-weather activities</option>
+            <option value="homesick">Nothing, I like to complain about being homesick</option>
+          </select>
+        </div>
+
+        <div class="col-md-12">
+          <p>Does travel mean living simply or a luxury resort?</p>
+            <select class="form-control" id="comfortLevel">
+              <option value="locals">Live like the locals</option>
+              <option value="fiveStars">Five star luxury only</option>
+            </select>
+
+
+
+          </div>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+
+        <div id="vacation1">
+          <img src="img/hutsbeach.jpeg" alt="beach with huts">
+          <h3>Based on your answers, Hawaii and all parts south are definitely for you!</h3>
+          <p>You should look at the following places for more ideas on where to go to take your next break:</p>
+            <ul>
+              <li>Cook Islands</li>
+              <li>Hawaii</li>
+              <li>Turks and Caicos</li>
+            </ul>
+        </div>
+
+        <div id="vacation2">
+          <img src="img/skiing.jpg" alt="Man skiing down mountain">
+          <h3>Based on your answers, here are some great destinations to consider:</h3>
+          <ul>
+            <li>Vancouver, B.C.</li>
+            <li>Telluride</li>
+            <li>Austrian Alps</li>
+          </ul>
+        </div>
+
+        <div id="vacation3">
+          <img src="img/staycation.jpg" alt="picture of a small house.">
+          <h3>Staycation, here you come!</h3>
+            <p>It's clear you are a homebody, and lucky for you, there is plenty to do right in your own neighborhood. Here are some great ideas you may not have considered:</p>
+            <ul>
+              <li>Your backyard, weeding is always popular and so in-season.</li>
+              <li>Your sofa because when else?</li>
+              <li>The corner grocery- that's far enough, right?</li>
+            </ul>
+          </div>
+
+          <div id="output">
+
+          </div>
+</div>
+ </body>
+</html>
