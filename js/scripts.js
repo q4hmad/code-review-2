@@ -19,7 +19,10 @@ $(document).ready(function(){
       $("#vacation2").show();
   } else if (question1 === "cool" && question2 === "lounging" || question5 === "fiveStars" && question4 === "homesick") {
       $("#vacation3").show();
+  } else {
+      $("#vacation3").show();
   }
+      $("output").empty();
       $("output").show(result);
   });
 });
